@@ -1,6 +1,6 @@
 # 📦 Demand Forecasting with Machine Learning
 
-p align="center">
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-deployed-green?style=flat-square&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/XGBoost-enabled-orange?style=flat-square"/>
@@ -199,9 +199,7 @@ MAE treats all errors equally. RMSE penalizes large errors more heavily — crit
 ## 👤 Author
 
 **Pradeep**
-- 📍 Hisar, Haryana
-- 🔗 GitHub:  https://github.com/pradeep32201-creator
-- 💼 LinkedIn : https://www.linkedin.com/in/pradeep-jamalpuriya-2350953a8/
+📍 Hisar, Haryana &nbsp;|&nbsp; 🔗 [GitHub](https://github.com/pradeep32201-creator) &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/pradeep-jamalpuriya-2350953a8/)
 
 ---
 
