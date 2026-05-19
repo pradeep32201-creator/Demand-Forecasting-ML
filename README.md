@@ -199,7 +199,7 @@ MAE treats all errors equally. RMSE penalizes large errors more heavily — crit
 ## 👤 Author
 
 **Pradeep**
-📍 Hisar, Haryana &nbsp;|&nbsp; 🔗 [GitHub](https://github.com/pradeep32201-creator) &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/pradeep-jamalpuriya-2350953a8/)
+📍 Hisar, Haryana &nbsp;|&nbsp; 🔗 [GitHub](https://github.com/pradeep32201-creator) &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/pradeep-2350953a8/)
 
 ---
 
