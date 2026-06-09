@@ -34,8 +34,9 @@ This project builds a complete forecasting pipeline that predicts **daily units 
 | Random Forest | 0.55 | 0.68 | 40.94% | 0.53 ± 0.01 |
 | **XGBoost** | **0.54** | **0.64** | **40.10%** | **0.52 ± 0.01** |
 > **XGBoost is the best-performing model** — lowest RMSE (0.64) and MAPE (40.10%), with the most stable cross-validation score (0.52 ± 0.01), indicating consistent generalization across all 5 time-series folds.
+> **Note:** 40% MAPE is expected at daily SKU-level forecasting due to inherent demand volatility — weekly aggregation reduces this significantly.
 
-## Forecast vs Actual
+## 📉 Forecast vs Actual
 
 ![Forecast vs Actual](output/forecast_vs_actual.png)
 
