@@ -35,6 +35,10 @@ This project builds a complete forecasting pipeline that predicts **daily units 
 | **XGBoost** | **0.54** | **0.64** | **40.10%** | **0.52 ± 0.01** |
 > **XGBoost is the best-performing model** — lowest RMSE (0.64) and MAPE (40.10%), with the most stable cross-validation score (0.52 ± 0.01), indicating consistent generalization across all 5 time-series folds.
 
+## Forecast vs Actual
+
+![Forecast vs Actual](screenshots/forecast-vs-actual.png)
+
 **Key observations:**
 - XGBoost matches baseline MAE while significantly reducing RMSE — meaning it makes fewer large errors
 - All models show tight CV variance (±0.01), confirming stable performance across time windows

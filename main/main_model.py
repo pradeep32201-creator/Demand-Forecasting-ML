@@ -63,7 +63,13 @@ print(f"Random Forest    MAE : {rf_mae:.2f}  RMSE: {rf_rmse:.2f}  MAPE: {rf_mape
 print(f"XGBoost          MAE : {xgb_mae:.2f}  RMSE: {xgb_rmse:.2f}  MAPE: {xgb_mape:.2f}%")
 
 from model_evaluation.visualization import plot_training_history
-plot_training_history(test['date'].loc[X_test.index], y_test, predictions)
+import pandas as pd
+
+plot_dates = pd.Series(test['date'].loc[X_test.index]).groupby(test['date'].loc[X_test.index]).first().index
+actual_daily = y_test.groupby(test['date'].loc[X_test.index]).sum()
+predicted_daily = pd.Series(xgb_predictions, index=X_test.index).groupby(test['date'].loc[X_test.index]).sum()
+
+plot_training_history(actual_daily.index, actual_daily, predicted_daily)
 
 from model_evaluation.residual_analysis import plot_residuals
 plot_residuals(y_test, predictions)
