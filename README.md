@@ -37,7 +37,7 @@ This project builds a complete forecasting pipeline that predicts **daily units 
 
 ## Forecast vs Actual
 
-![Forecast vs Actual](output/forecast-vs-actual.png)
+![Forecast vs Actual](output/forecast_vs_actual.png)
 
 **Key observations:**
 - XGBoost matches baseline MAE while significantly reducing RMSE — meaning it makes fewer large errors
